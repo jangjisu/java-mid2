@@ -17,6 +17,10 @@ public class BoxMain2 {
         integerBox.set("문자100");
         Integer result = (Integer) integerBox.get(); // String -> Integer 캐스팅 예외
         System.out.println("result = " + result);
+
+        //타입 안정성
+        //코드 재사용
+        //서로 반대되는 성향
     }
 
 }
