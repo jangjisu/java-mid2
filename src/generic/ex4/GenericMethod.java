@@ -1,4 +1,4 @@
-package generic.test.ex4;
+package generic.ex4;
 
 public class GenericMethod {
     public static Object objMethod(Object obj) {
@@ -7,7 +7,7 @@ public class GenericMethod {
     }
 
     public static <T> T genericMethod(T obj) {
-        System.out.println("object print: " + obj);
+        System.out.println("generic print: " + obj);
         return obj;
     }
     public static <T extends Number> T numberMethod(T t) {
