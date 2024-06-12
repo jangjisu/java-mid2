@@ -8,6 +8,6 @@ public class Magician extends Character{
 
     @Override
     public void attack() {
-        System.out.println(getName() + "마법 공격!");
+        System.out.println(getName() + " 마법 공격!");
     }
 }

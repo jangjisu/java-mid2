@@ -17,6 +17,14 @@ public class Character {
         return this.name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
     public void attack() {
         System.out.println(getName() + " 공격!");
     }

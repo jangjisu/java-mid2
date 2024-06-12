@@ -1,7 +1,7 @@
 package generic.ex5;
 
 public class EraserBox<T> {
-    public boolean instanceCheck (Object param) {
+    public boolean instanceCheck (Character param) {
         //return param instanceof T;
         return false;
     }
