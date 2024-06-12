@@ -1,16 +1,12 @@
 package generic.game;
 
 import generic.ex5.Box;
-import generic.ex5.EraserBox;
 
 public class PVPmain2 {
     public static void main(String[] args) {
         Archer archer = new Archer("궁수1", 100);
-        Archer archer1 = new Archer("궁수2",200);
-
 
         Magician magician = new Magician("마법사1", 200);
-        Magician magician1 = new Magician("마법사2", 150);
 
         Box<Archer> archerBox = new Box<>();
         archerBox.set(archer);
@@ -31,6 +27,7 @@ public class PVPmain2 {
         eraserBox.set(10);
 
         Integer i = eraserBox.get();
+        System.out.println(i);
 
 
     }

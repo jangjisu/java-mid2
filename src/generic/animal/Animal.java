@@ -1,8 +1,8 @@
 package generic.animal;
 
 public class Animal {
-    private String name;
-    private int size;
+    private final String name;
+    private final int size;
 
     public Animal(String name, int size) {
         this.name = name;
