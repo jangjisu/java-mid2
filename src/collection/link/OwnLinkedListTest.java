@@ -1,7 +1,5 @@
 package collection.link;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class OwnLinkedListTest {
     public static void main(String[] args) {
         OwnLinkedList<String> ll = new OwnLinkedList<>();
