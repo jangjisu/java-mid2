@@ -1,19 +1,18 @@
 package collection.list.test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayEx1 {
+public class ListEx1 {
     public static void main(String[] args) {
-        int[] students = {90, 80, 70, 60, 50};
+        List<Integer> students = Arrays.asList(new Integer[]{90, 80, 70, 60, 50});
 
         int total = 0;
-        for (int i = 0; i < students.length; i++) {
-            total += students[i];
+        for (Integer student : students) {
+            total += student;
         }
 
-        double average = (double) total / students.length;
+        double average = total/ students.size();
         System.out.println("점수 총합: " + total);
         System.out.println("점수 평균: " + average);
     }
