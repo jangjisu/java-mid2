@@ -90,7 +90,6 @@ public class OwnLinkedList<E> {
         return size;
     }
 
-    @Override
     public String toString() {
         return "OwnLinkedList{" +
                 "first=" + first +
@@ -106,7 +105,6 @@ public class OwnLinkedList<E> {
             this.item = item;
         }
 
-        @Override
         public String toString() {
             return "Node{" +
                     "item=" + item +

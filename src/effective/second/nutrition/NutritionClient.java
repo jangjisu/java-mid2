@@ -12,5 +12,6 @@ public class NutritionClient {
         if(cocaCola.getCalories() == 100) {
             System.out.println("test");
         }
+
     }
 }
