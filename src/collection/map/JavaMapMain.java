@@ -19,6 +19,8 @@ public class JavaMapMain {
         map.put("2", 50);
 
         Set<String> strings = map.keySet();
+        Collection<Integer> values = map.values();
+
         Iterator<String> iterator = strings.iterator();
         while (iterator.hasNext()) {
             String next = iterator.next();
